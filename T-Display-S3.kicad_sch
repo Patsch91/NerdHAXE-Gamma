@@ -6529,7 +6529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "myfootprints:TMP1075-DRL"
+		(property "Footprint" "Qaxe:TMP1075-DRL"
 			(at 176.022 52.07 0)
 			(effects
 				(font
@@ -7645,7 +7645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "myfootprints:TMP1075-DRL"
+		(property "Footprint" "Qaxe:TMP1075-DRL"
 			(at 176.022 80.01 0)
 			(effects
 				(font

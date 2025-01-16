@@ -1264,7 +1264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN2_1102030_OST"
+		(property "Footprint" "Nerd8:CONN2"
 			(at 53.848 63.754 0)
 			(effects
 				(font
@@ -1343,7 +1343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "3568:FUSE_3568"
+		(property "Footprint" "8Axe:Fuseholder Blade_3568"
 			(at 81.788 56.134 0)
 			(effects
 				(font
