@@ -11118,7 +11118,7 @@
 		)
 		(uuid "7d6bb79f-5316-44de-ad4f-0e3b1990c03c")
 	)
-	(text "for IMAX=180A"
+	(text "for IMAX=120A"
 		(exclude_from_sim no)
 		(at 39.116 123.444 90)
 		(effects
@@ -14232,7 +14232,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1bb04140-34f1-4576-b94c-8f38d054b331")
 		(property "Reference" "JP5"
@@ -16020,7 +16020,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2f5d9638-709b-46b1-a20a-38acdac38397")
 		(property "Reference" "JP4"
 			(at 25.146 147.574 90)
@@ -21955,7 +21955,7 @@
 		(at 23.876 274.574 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -25694,7 +25694,7 @@
 				)
 			)
 		)
-		(property "Value" "33.2k"
+		(property "Value" "49.9k"
 			(at 46.228 122.174 90)
 			(effects
 				(font
@@ -25720,7 +25720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 33.2K OHM 1% 1/8W 0805"
+		(property "Description" "RES 49.9K OHM 1% 1/8W 0805"
 			(at 41.656 122.174 0)
 			(effects
 				(font
@@ -25738,7 +25738,7 @@
 				(hide yes)
 			)
 		)
-		(property "OrderNr" "RMCF0805FT33K2CT-ND"
+		(property "OrderNr" "311-49.9KCRCT-ND"
 			(at 41.656 122.174 90)
 			(effects
 				(font
@@ -25796,7 +25796,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "830e4d4e-bdbf-426f-9aa3-2f30f7b9af41")
 		(property "Reference" "TP1"
 			(at 76.1492 216.9668 0)

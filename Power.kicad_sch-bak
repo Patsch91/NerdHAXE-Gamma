@@ -2884,6 +2884,251 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCP1824_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5880,6 +6125,12 @@
 		(uuid "23e69a6e-1b45-4dcd-a7d9-b8a0049d71e8")
 	)
 	(junction
+		(at 423.672 123.444)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e53f3f9-6372-46c6-8628-8db2a5379e70")
+	)
+	(junction
 		(at 351.536 123.444)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5974,6 +6225,12 @@
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "4f04dfdc-edf1-4b86-8102-63bcae980403")
+	)
+	(junction
+		(at 421.132 108.204)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51dc05fd-21b7-44cc-84d3-aa772320cb3e")
 	)
 	(junction
 		(at 392.176 108.204)
@@ -6523,13 +6780,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.576 152.654) (xy 40.386 152.654)
+			(xy 24.384 152.654) (xy 28.194 152.654)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02e67a20-bc86-44f7-8292-7f004634eaef")
+		(uuid "0235655e-a2f7-4e05-a155-f6ccd321d17a")
 	)
 	(wire
 		(pts
@@ -6693,6 +6950,16 @@
 	)
 	(wire
 		(pts
+			(xy 28.194 157.48) (xy 24.13 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120da0d7-0489-444c-a0a2-6b8e4956e7db")
+	)
+	(wire
+		(pts
 			(xy 392.176 77.724) (xy 392.176 80.264)
 		)
 		(stroke
@@ -6763,16 +7030,6 @@
 	)
 	(wire
 		(pts
-			(xy 425.196 142.494) (xy 431.546 142.494)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "167c0c07-6bcb-411f-8803-a48f0d1408f2")
-	)
-	(wire
-		(pts
 			(xy 238.506 200.914) (xy 241.046 200.914)
 		)
 		(stroke
@@ -6813,7 +7070,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.306 108.204) (xy 431.546 108.204)
+			(xy 416.306 108.204) (xy 421.132 108.204)
 		)
 		(stroke
 			(width 0)
@@ -6960,16 +7217,6 @@
 			(type default)
 		)
 		(uuid "25cf530b-d898-43ac-b70a-5035035f3c8c")
-	)
-	(wire
-		(pts
-			(xy 425.196 146.304) (xy 434.086 146.304)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26914e35-66a4-450b-b2ae-5a8b267c0658")
 	)
 	(wire
 		(pts
@@ -7263,6 +7510,16 @@
 	)
 	(wire
 		(pts
+			(xy 32.004 147.574) (xy 40.64 147.574)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31953104-73ab-45f7-9b9a-be0f85465136")
+	)
+	(wire
+		(pts
 			(xy 30.226 115.824) (xy 41.656 115.824)
 		)
 		(stroke
@@ -7333,6 +7590,16 @@
 	)
 	(wire
 		(pts
+			(xy 32.004 162.814) (xy 40.386 162.814)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d67dd7-5529-4829-92e5-1b673ddbaf2d")
+	)
+	(wire
+		(pts
 			(xy 370.586 48.514) (xy 370.586 51.054)
 		)
 		(stroke
@@ -7400,6 +7667,16 @@
 			(type default)
 		)
 		(uuid "3e2f60a2-ead5-4c58-81dc-3f17b6ce1929")
+	)
+	(wire
+		(pts
+			(xy 423.672 137.922) (xy 423.672 123.444)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e817ae1-ae36-409c-ad2f-275c7ddbd90e")
 	)
 	(wire
 		(pts
@@ -7640,6 +7917,16 @@
 			(type default)
 		)
 		(uuid "51c1e11b-3799-4721-a89b-e8a38020066c")
+	)
+	(wire
+		(pts
+			(xy 423.672 123.444) (xy 434.086 123.444)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526f59f4-87c1-4ce5-b78a-fde474a11381")
 	)
 	(wire
 		(pts
@@ -7933,6 +8220,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.132 145.542) (xy 421.132 148.082)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662b43b6-8821-40f9-a56b-40dbf5f5b63a")
+	)
+	(wire
+		(pts
 			(xy 74.676 222.504) (xy 74.676 221.234)
 		)
 		(stroke
@@ -8063,7 +8360,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.086 138.684) (xy 434.086 146.304)
+			(xy 434.086 138.684) (xy 434.086 144.018)
 		)
 		(stroke
 			(width 0)
@@ -8223,6 +8520,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.386 162.814) (xy 40.386 152.654)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e03b10-e56c-47ff-b0a7-8ae2e59a2293")
+	)
+	(wire
+		(pts
 			(xy 228.346 157.734) (xy 230.886 157.734)
 		)
 		(stroke
@@ -8290,6 +8597,16 @@
 			(type default)
 		)
 		(uuid "7c92fb04-12b3-4558-ac63-ec7b1596842a")
+	)
+	(wire
+		(pts
+			(xy 28.194 157.734) (xy 28.194 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb88c7e-0a8d-4ad4-a19c-1bd7137e5536")
 	)
 	(wire
 		(pts
@@ -8953,7 +9270,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.546 138.684) (xy 431.546 142.494)
+			(xy 431.546 138.684) (xy 431.546 144.018)
 		)
 		(stroke
 			(width 0)
@@ -9173,7 +9490,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.306 123.444) (xy 434.086 123.444)
+			(xy 416.306 123.444) (xy 423.672 123.444)
 		)
 		(stroke
 			(width 0)
@@ -9210,6 +9527,16 @@
 			(type default)
 		)
 		(uuid "aa9d5246-017e-41bd-87aa-4930d6e90594")
+	)
+	(wire
+		(pts
+			(xy 24.384 142.494) (xy 28.194 142.494)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0e161d-c800-4589-8a90-8c7626ffcaa2")
 	)
 	(wire
 		(pts
@@ -9300,16 +9627,6 @@
 			(type solid)
 		)
 		(uuid "aff9d4e7-5457-4e5d-95c6-2de455de6fbe")
-	)
-	(wire
-		(pts
-			(xy 36.576 147.574) (xy 40.386 147.574)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b205485d-bbc8-4ab5-88c1-3a09fba0275b")
 	)
 	(wire
 		(pts
@@ -9853,6 +10170,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.132 108.204) (xy 431.546 108.204)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6c942a-6220-47c4-b0d3-d14c317c5bb7")
+	)
+	(wire
+		(pts
 			(xy 87.376 87.884) (xy 87.376 103.124)
 		)
 		(stroke
@@ -9973,7 +10300,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.466 147.574) (xy 48.641 147.574)
+			(xy 45.72 147.574) (xy 48.641 147.574)
 		)
 		(stroke
 			(width 0)
@@ -10100,6 +10427,16 @@
 			(type default)
 		)
 		(uuid "dc126dc8-2c96-427f-a33d-c23db823cbad")
+	)
+	(wire
+		(pts
+			(xy 423.672 145.542) (xy 423.672 148.336)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3ba5e8-1dfc-49b6-9a1a-753b969bc321")
 	)
 	(wire
 		(pts
@@ -10423,6 +10760,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.132 108.204) (xy 421.132 137.922)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5f690a-d488-40f9-867a-49afbff4185b")
+	)
+	(wire
+		(pts
 			(xy 238.506 160.274) (xy 238.506 161.544)
 		)
 		(stroke
@@ -10550,6 +10897,16 @@
 			(type default)
 		)
 		(uuid "f52442ba-595f-416c-a4e6-83de5bde36e4")
+	)
+	(wire
+		(pts
+			(xy 28.194 167.894) (xy 23.622 167.894)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53300fc-5ae5-4b40-aed1-001ec8e0aa93")
 	)
 	(wire
 		(pts
@@ -10761,7 +11118,7 @@
 		)
 		(uuid "7d6bb79f-5316-44de-ad4f-0e3b1990c03c")
 	)
-	(text "for IMAX=180A"
+	(text "for IMAX=120A"
 		(exclude_from_sim no)
 		(at 39.116 123.444 90)
 		(effects
@@ -10815,6 +11172,17 @@
 		)
 		(uuid "2b28c553-da33-4a8a-a3bb-8e775dffd6a0")
 	)
+	(label "VSENSE(1)-"
+		(at 24.13 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3102572a-5d27-47b9-9f29-56460d8f254d")
+	)
 	(label "FCCM"
 		(at 183.896 194.564 180)
 		(fields_autoplaced yes)
@@ -10838,7 +11206,7 @@
 		(uuid "359ba293-4daf-4f62-b0b6-80856102e6ed")
 	)
 	(label "VSENSE-"
-		(at 36.576 152.654 180)
+		(at 40.386 162.814 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10848,14 +11216,14 @@
 		)
 		(uuid "368a2ac5-2498-4d95-aef8-4397b3048d80")
 	)
-	(label "VSENSE-"
-		(at 426.466 146.304 0)
+	(label "VSENSE(1)-"
+		(at 434.086 144.018 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "387372b9-9bfd-4335-a4bb-93c4d05a9001")
 	)
@@ -10936,6 +11304,28 @@
 		)
 		(uuid "7d667910-c61e-45ce-ac0c-4b397cf2fdb3")
 	)
+	(label "VSENSE(2)+"
+		(at 24.384 152.654 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87f0c1c5-7f13-4ef1-aac7-247741d243cd")
+	)
+	(label "VSENSE(2)+"
+		(at 421.132 148.082 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a131613-5d8f-436c-ada4-959701f41f9e")
+	)
 	(label "TPS_PWM1"
 		(at 195.326 99.314 180)
 		(fields_autoplaced yes)
@@ -10948,7 +11338,7 @@
 		(uuid "8a935b73-c392-43a2-bef2-6fce3f53e2bc")
 	)
 	(label "VSENSE+"
-		(at 36.576 147.574 180)
+		(at 40.64 147.574 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10957,6 +11347,17 @@
 			(justify right bottom)
 		)
 		(uuid "8efb7dd4-623f-48bc-9cb7-afc269f4cb61")
+	)
+	(label "VSENSE(1)+"
+		(at 24.384 142.494 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c0358cd-e706-43f6-a824-697aae1efa8f")
 	)
 	(label "TPS_PWM3"
 		(at 94.996 89.154 270)
@@ -10969,14 +11370,14 @@
 		)
 		(uuid "9fb6a0bb-d92c-4087-a576-1ff40715bf49")
 	)
-	(label "VSENSE+"
-		(at 426.466 142.494 0)
+	(label "VSENSE(1)+"
+		(at 431.546 144.018 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a0b956ad-4a34-4634-9a26-2c4356a19b9a")
 	)
@@ -11045,6 +11446,28 @@
 			(justify left bottom)
 		)
 		(uuid "c8d1d7af-0b89-4de0-93c2-aab1c340439e")
+	)
+	(label "VSENSE(2)-"
+		(at 423.672 148.336 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ccbb9fe9-8b9f-4aef-a1da-b8290b606971")
+	)
+	(label "VSENSE(2)-"
+		(at 23.622 167.894 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce4e88ac-2b00-4d0e-ab30-4c4f3813b4b2")
 	)
 	(label "FCCM"
 		(at 183.896 101.854 180)
@@ -12113,6 +12536,118 @@
 			(project "NerdHex-Gamma"
 				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/55eed6b7-f08f-4f09-b09f-e4bcfc95b9ae"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 423.672 141.732 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b6a88e2-f8ce-4826-bcc4-44e0ba41cd5d")
+		(property "Reference" "R35"
+			(at 426.212 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 428.752 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 425.45 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 423.672 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1/8W 0805"
+			(at 423.672 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 423.672 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "RMCF0805ZT0R00"
+			(at 423.672 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "RMCF0805ZT0R00CT-ND"
+			(at 423.672 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Brand" "Stackpole Electronics Inc"
+			(at 423.672 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 423.672 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21a13551-acc5-4034-903e-d1f70ee968c8")
+		)
+		(pin "2"
+			(uuid "7a54e306-0434-4191-9c05-90b6e4cc1323")
+		)
+		(instances
+			(project "NerdHex-Gamma"
+				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/55eed6b7-f08f-4f09-b09f-e4bcfc95b9ae"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -13685,6 +14220,79 @@
 			(project "NerdHex-Gamma"
 				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/55eed6b7-f08f-4f09-b09f-e4bcfc95b9ae"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 28.194 162.814 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "1bb04140-34f1-4576-b94c-8f38d054b331")
+		(property "Reference" "JP5"
+			(at 25.4 162.8139 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 22.098 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 28.194 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.194 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 28.194 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f09319e-976e-48d0-98be-e3f24db92f44")
+		)
+		(pin "3"
+			(uuid "17d6be87-02f9-4e85-b9e5-4b4f57e57728")
+		)
+		(pin "2"
+			(uuid "48732c8a-d1af-4ee0-bc62-fc005d8effaa")
+		)
+		(instances
+			(project "NerdHex-Gamma"
+				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/55eed6b7-f08f-4f09-b09f-e4bcfc95b9ae"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -15400,6 +16008,77 @@
 			(project "NerdHex-Gamma"
 				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/55eed6b7-f08f-4f09-b09f-e4bcfc95b9ae"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 28.194 147.574 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "2f5d9638-709b-46b1-a20a-38acdac38397")
+		(property "Reference" "JP4"
+			(at 25.146 147.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 20.574 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 28.194 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.194 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 28.194 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7504c527-3d43-4d18-82c7-dd8e494d520e")
+		)
+		(pin "3"
+			(uuid "cb472d31-6f66-4b89-9ffb-cd89d0c47539")
+		)
+		(pin "2"
+			(uuid "f5fe5a9e-5966-44cc-9f25-c6fa7af0dc81")
+		)
+		(instances
+			(project ""
+				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/55eed6b7-f08f-4f09-b09f-e4bcfc95b9ae"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -21276,7 +21955,7 @@
 		(at 23.876 274.574 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -25015,7 +25694,7 @@
 				)
 			)
 		)
-		(property "Value" "33.2k"
+		(property "Value" "49.9k"
 			(at 46.228 122.174 90)
 			(effects
 				(font
@@ -25059,7 +25738,7 @@
 				(hide yes)
 			)
 		)
-		(property "OrderNr" "RMCF0805FT33K2CT-ND"
+		(property "OrderNr" "311-49.9KCRCT-ND"
 			(at 41.656 122.174 90)
 			(effects
 				(font
@@ -25117,7 +25796,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "830e4d4e-bdbf-426f-9aa3-2f30f7b9af41")
 		(property "Reference" "TP1"
 			(at 76.1492 216.9668 0)
@@ -33583,7 +34262,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 42.926 147.574 90)
+		(at 43.18 147.574 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33592,7 +34271,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7f5f406-d80d-43b1-90cf-6ae3f69781d8")
 		(property "Reference" "R2"
-			(at 42.926 142.494 90)
+			(at 43.18 142.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33600,7 +34279,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 42.926 145.034 90)
+			(at 43.18 145.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33608,7 +34287,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 42.926 147.574 0)
+			(at 43.18 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33617,7 +34296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 42.926 147.574 0)
+			(at 43.18 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33626,7 +34305,7 @@
 			)
 		)
 		(property "Description" "RES 100 OHM 1% 1/8W 0805"
-			(at 42.926 147.574 0)
+			(at 43.18 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33635,7 +34314,7 @@
 			)
 		)
 		(property "Manufacturer" "RC0805FR-07100RL"
-			(at 42.926 147.574 0)
+			(at 43.18 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33644,7 +34323,7 @@
 			)
 		)
 		(property "OrderNr" "311-100CRCT-ND"
-			(at 42.926 147.574 0)
+			(at 43.18 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33653,7 +34332,7 @@
 			)
 		)
 		(property "Distributor" "D"
-			(at 42.926 147.574 0)
+			(at 43.18 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33662,7 +34341,7 @@
 			)
 		)
 		(property "Brand" "YAGEO"
-			(at 42.926 147.574 0)
+			(at 43.18 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33671,7 +34350,7 @@
 			)
 		)
 		(property "Size" "0805"
-			(at 42.926 147.574 0)
+			(at 43.18 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35561,6 +36240,119 @@
 			(project "NerdHex-Gamma"
 				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/55eed6b7-f08f-4f09-b09f-e4bcfc95b9ae"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 421.132 141.732 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f36bd230-7059-4c5e-8157-123c21105f92")
+		(property "Reference" "R32"
+			(at 418.592 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 416.052 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 419.354 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 421.132 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1/8W 0805"
+			(at 421.132 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 421.132 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "RMCF0805ZT0R00"
+			(at 421.132 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "RMCF0805ZT0R00CT-ND"
+			(at 421.132 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Brand" "Stackpole Electronics Inc"
+			(at 421.132 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 421.132 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dce63029-1743-4d10-ab53-aa4a61d694d2")
+		)
+		(pin "2"
+			(uuid "f42d4dd5-eaa3-41b4-96f9-81e45f71e3f0")
+		)
+		(instances
+			(project "NerdHex-Gamma"
+				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/55eed6b7-f08f-4f09-b09f-e4bcfc95b9ae"
+					(reference "R32")
 					(unit 1)
 				)
 			)

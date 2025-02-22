@@ -1346,7 +1346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nerd8:CONN2"
+		(property "Footprint" "myfootprints:CONN2"
 			(at 53.848 63.754 0)
 			(effects
 				(font
@@ -1481,7 +1481,7 @@
 				(hide yes)
 			)
 		)
-		(property "OrderNr" "  36-3568-ND"
+		(property "OrderNr" "36-3568-ND"
 			(at 81.788 56.134 0)
 			(effects
 				(font
@@ -1510,7 +1510,7 @@
 		(at 25.908 151.892 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1551,7 +1551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-"
+		(property "Description" "Threaded Inserts"
 			(at 25.908 151.892 0)
 			(effects
 				(font
