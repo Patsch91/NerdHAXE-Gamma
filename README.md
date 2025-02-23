@@ -20,7 +20,7 @@ The NerdHaxe-Gamma uses the [ESP-Miner](https://github.com/shufps/ESP-Miner-Nerd
 # Components
 - **Asics:** 6 x BM1370
 - **T-Display S3:** ESP32S3 microcontroller with WiFi and integrated display
-- **PCB:** I ordered the prototype PCB as specified in the KiCad files above, with a copper thickness of 1/1 oz, and it has been running well so far.
+- **PCB:** I ordered the prototype PCB as specified in the KiCad files above, with a copper thickness of 1/1 oz, and it has been running well so far. One thing I tried on this PCB was exposing the pads underneath the ASICs to improve thermal connection to the backside of the PCB, where 10x10mm heatsinks can be placed.
 - **BOM:** The board components needed for the build can be found in the BOM.
 - **Heatsink:** The PCB has slotted holes that accommodate mounting patterns from 75x75mm to 80x80mm. The mounting patterns fit some LGA15xx or 2011 coolers, but be mindful of the thermal contact area of the coolers you want to use. Most standard coolers have a contact area of around 40x40mm, which is not sufficient. Therefore, I used server heatsinks such as the Supermicro SNK-P0048P(W) with a completely flat contact surface.
 - **Fans:** Currently, I am using 2x Noctua A9x25 PWM chromax fans in a push-pull configuration, and at 75-85% PWM, the sound level is quite ok. I will soon test the Arctic P9 Max model, which is more powerful than the Noctuas, but of course, at a higher noise level.
