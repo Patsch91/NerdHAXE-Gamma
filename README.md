@@ -1,13 +1,14 @@
 <img src="https://github.com/Patsch91/NerdHEX-Gamma/blob/main/Images/NHG-Logo dark.png" width="250px">
 
 **The NerdHaxe-Gamma is a 6-Asic-Miner based on the [NerdQAxe+(+)](https://github.com/shufps/qaxe) / [Nerdaxe](https://github.com/BitMaker-hub/NerdAxeUltra) and inspired by [OSMU](https://osmu.wiki/) and the [Bitaxe](https://github.com/bitaxeorg)**
+Current status: First version is running pretty solid. Disclaimer: This is a hobby project and not a professional or commercial product so feel free to build / make changes and share ideas on how to improve the design
 
 <img src="https://github.com/Patsch91/NerdHEX-Gamma/blob/main/Images/Front PCB.png" width="250px"> <img src="https://github.com/Patsch91/NerdHEX-Gamma/blob/main/Images/Backside PCB.png" width="250px">
 
 # Specifications
 - **Open Source:** All design files are provided, and suggestions/improvements are always welcome.
 - **Standalone:** Using the T-Display S3 with WiFi and works without an external controller.
-- **Performance:** ~7.35 TH/s average at around 120 watts (measured at the wall, including a MW UHP-200-12).
+- **Performance:** ~7.35 TH/s average at around 120-125 watts (measured at the wall, including a MW UHP-200-12).
 - **Case:** DIY Idea for a 3D-printed case with an integrated PSU.
 
 # Software / Firmware
