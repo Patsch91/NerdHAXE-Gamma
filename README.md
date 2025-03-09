@@ -26,7 +26,7 @@ The NerdHaxe-Gamma uses the [ESP-Miner](https://github.com/shufps/ESP-Miner-Nerd
 - **BOM:** The board components needed for the build can be found in the BOM.
 - **Heatsink:** The PCB has slotted holes that accommodate mounting patterns from 75x75mm to 80x80mm. The mounting patterns fit some LGA15xx or 2011 coolers, but be mindful of the thermal contact area of the coolers you want to use. Most standard coolers have a contact area of around 40x40mm, which is not sufficient. Therefore, I used server heatsinks such as the Supermicro SNK-P0048P(W) with a completely flat contact surface.
 - **Fans:** Currently, I am using 2x Noctua A9x25 PWM chromax fans in a push-pull configuration, and at 75-85% PWM, the sound level is quite ok. I will soon test the Arctic P9 Max model, which is more powerful than the Noctuas, but of course, at a higher noise level.
-- **PSU:** The NerdHaxe-Gamma operates at around 12V and 10A with default settings. Therefore, I recommend using a PSU that provides 12V and at least 15A. I used the Meanwell UHP-200-12. <br>
+- **PSU:** The NerdHaxe-Gamma operates at around 12V and 10A with default settings. Therefore, I recommend using a PSU that provides 12V and at least 15A. I am using the Meanwell UHP-200-12. <br>
 
 
 # Misc 
