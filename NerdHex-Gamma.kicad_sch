@@ -170,6 +170,281 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F1"
+				(at 1.27 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3568"
+				(at 1.27 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "3568:FUSE_3568"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "3568"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "OrderNr" "36-3568-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "3568"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7.37 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:5KPxxA"
 			(pin_numbers hide)
 			(pin_names
@@ -297,196 +572,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Fuseholder Blade 3568:3568"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "3568"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "3568:FUSE_3568"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Keystone"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "3568"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "7.37 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "3568_0_0"
-				(arc
-					(start 0 0)
-					(mid -1.905 1.8967)
-					(end -3.81 0)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 1.905 -1.8967)
-					(end 3.81 0)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -684,6 +769,18 @@
 		(color 0 0 0 0)
 		(uuid "3b0854bb-08fb-4fd6-9576-d26e49a8a30c")
 	)
+	(junction
+		(at 90.424 56.134)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aae2ff3-6a93-4c77-b7ec-15d462451147")
+	)
+	(junction
+		(at 73.406 56.134)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50826ec-94f9-489b-a6c8-5444c1ddaa49")
+	)
 	(wire
 		(pts
 			(xy 138.176 76.2) (xy 175.514 76.2)
@@ -846,6 +943,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.884 58.674) (xy 90.424 58.674)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f1d31e-902c-4219-88fc-a313bd6ca429")
+	)
+	(wire
+		(pts
 			(xy 146.05 111.76) (xy 141.224 111.76)
 		)
 		(stroke
@@ -906,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 89.408 56.134) (xy 97.028 56.134)
+			(xy 87.884 56.134) (xy 90.424 56.134)
 		)
 		(stroke
 			(width 0)
@@ -936,6 +1043,26 @@
 	)
 	(wire
 		(pts
+			(xy 90.424 56.134) (xy 97.028 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c48fbb9-fcce-409c-886d-7453d69f6857")
+	)
+	(wire
+		(pts
+			(xy 73.406 56.134) (xy 75.184 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f75b22-bac1-4ad0-9297-e70822e6ad5a")
+	)
+	(wire
+		(pts
 			(xy 97.028 56.134) (xy 113.792 56.134)
 		)
 		(stroke
@@ -946,6 +1073,26 @@
 	)
 	(wire
 		(pts
+			(xy 90.424 58.674) (xy 90.424 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3f704f-c1ad-4f0d-b931-8e1308b50644")
+	)
+	(wire
+		(pts
+			(xy 73.406 56.134) (xy 73.406 58.674)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4bd6f5-1254-4142-87f2-7f4180aaf914")
+	)
+	(wire
+		(pts
 			(xy 138.176 57.912) (xy 175.514 57.912)
 		)
 		(stroke
@@ -953,6 +1100,16 @@
 			(type default)
 		)
 		(uuid "afa86920-e5e6-4427-ae1c-74cd23dc5dd4")
+	)
+	(wire
+		(pts
+			(xy 75.184 58.674) (xy 73.406 58.674)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d387fa-36f7-4d9f-ab7e-40d870b6618c")
 	)
 	(wire
 		(pts
@@ -1016,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.484 56.134) (xy 74.168 56.134)
+			(xy 62.484 56.134) (xy 73.406 56.134)
 		)
 		(stroke
 			(width 0)
@@ -1409,8 +1566,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Fuseholder Blade 3568:3568")
-		(at 81.788 56.134 0)
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 80.264 56.134 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1419,7 +1576,7 @@
 		(fields_autoplaced yes)
 		(uuid "db943c65-67f1-4d67-9823-dc170f63cb28")
 		(property "Reference" "F1"
-			(at 81.788 49.53 0)
+			(at 81.534 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1584,7 @@
 			)
 		)
 		(property "Value" "3568"
-			(at 81.788 52.07 0)
+			(at 81.534 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,17 +1592,7 @@
 			)
 		)
 		(property "Footprint" "8Axe:Fuseholder Blade_3568"
-			(at 81.788 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.788 56.134 0)
+			(at 80.264 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,8 +1600,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuseholder Mini Blade"
-			(at 81.788 56.134 0)
+		(property "Datasheet" "~"
+			(at 80.264 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 80.264 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1619,7 @@
 			)
 		)
 		(property "Manufacturer" "3568"
-			(at 81.788 56.134 0)
+			(at 80.264 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1473,7 +1629,7 @@
 			)
 		)
 		(property "Distributor" "D"
-			(at 81.788 56.134 0)
+			(at 80.264 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,11 +1638,61 @@
 			)
 		)
 		(property "OrderNr" "36-3568-ND"
-			(at 81.788 56.134 0)
+			(at 80.264 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 80.264 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 80.264 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "3568"
+			(at 80.264 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.37 mm"
+			(at 80.264 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 80.264 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -1495,6 +1701,12 @@
 		)
 		(pin "2"
 			(uuid "a1813e53-1d46-4d2c-a412-c73c2b14793f")
+		)
+		(pin "3"
+			(uuid "f211ca42-cd11-485a-96bc-6a11a61088d2")
+		)
+		(pin "4"
+			(uuid "b98051e7-e7d3-4ecb-abe0-d2eba22c61e3")
 		)
 		(instances
 			(project ""
