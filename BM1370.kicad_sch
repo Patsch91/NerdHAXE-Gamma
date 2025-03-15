@@ -7244,7 +7244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Nerd8:BM1370"
+		(property "Footprint" "Eigene:BM1370"
 			(at 152.4 119.38 0)
 			(effects
 				(font
