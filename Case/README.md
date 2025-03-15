@@ -4,14 +4,16 @@
 
 
 # Case 
+<img src="https://github.com/Patsch91/NerdHAXE-Gamma/blob/main/Case/Pictures/Frontrunning.jpg" width="300px">
+
 - **3D-printed parts:** You can find the files in here 
 - **M3 inserts:** I used threaded nuts (M3) to hold the parts together 
-- **PEM:** Power entry module with fuse and switch to cut the power without pulling any other connections
+- **PEM:** Power entry module with fuse and switch to cut the power without pulling any other connections. Please know what you are doing ad follow the regulations/rules as this is connected to AC.
 - **Screws:** this design is made for M3 screws 
 - **Fans:** I am using 2x Noctua A9x25 PWM chromax fans in a push-pull configuration, and at 80% PWM, the sound level is quite pleasant. The Arctic P9 Max are working very well with much headroom but at a higher noise level
 - **PSU:** Meanwell UHP-200-12. <br>
 
-
+<img src="https://github.com/Patsch91/NerdHAXE-Gamma/blob/main/Case/Pictures/Front.jpg" width="243px"> <img src="https://github.com/Patsch91/NerdHAXE-Gamma/blob/main/Case/Pictures/Back.jpg" width="350px"> 
 
 # Misc 
 **DISCLAIMER:** This device is an *advanced* build and partly WIP. To get 6 Asics soldered properly *can* be very hard and frustrating if you are not used to soldering Asics or soldering in general. Using that amount of power, this device is not a toy, and you should know what you are doing. Follow the regulations and precautions – **stay safe!** <br>
