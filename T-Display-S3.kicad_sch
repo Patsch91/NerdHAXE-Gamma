@@ -3904,6 +3904,12 @@
 		(uuid "0eeec87b-75bb-4ef7-8cf7-74e70fcc5d7a")
 	)
 	(junction
+		(at 105.156 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16234aa3-010a-4f32-9865-ef115c96229f")
+	)
+	(junction
 		(at 165.862 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3938,6 +3944,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b6f0eb2-ef47-4832-8505-a23aa8e7346a")
+	)
+	(junction
+		(at 116.586 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d408167-8a47-489e-b2ff-4d032669ee54")
 	)
 	(junction
 		(at 174.752 128.27)
@@ -4031,6 +4043,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.012 71.12) (xy 105.156 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c24d933-5492-42cc-93bb-02c7aedf3022")
+	)
+	(wire
+		(pts
 			(xy 187.452 50.8) (xy 195.072 50.8)
 		)
 		(stroke
@@ -4058,6 +4080,16 @@
 			(type default)
 		)
 		(uuid "0f6cc8ca-5297-4492-a35a-888ef5337e05")
+	)
+	(wire
+		(pts
+			(xy 116.586 73.66) (xy 118.618 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a9552b-0bc2-4247-897c-99792056c07b")
 	)
 	(wire
 		(pts
@@ -4271,6 +4303,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.586 62.738) (xy 116.586 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406a241c-04f3-471a-80fa-ee3bbc21f996")
+	)
+	(wire
+		(pts
 			(xy 96.012 91.44) (xy 101.092 91.44)
 		)
 		(stroke
@@ -4278,16 +4320,6 @@
 			(type default)
 		)
 		(uuid "41fbcc16-f754-473d-8b97-659969eaae75")
-	)
-	(wire
-		(pts
-			(xy 96.012 71.12) (xy 108.712 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43455fe7-48b8-420f-a7fb-a6167c7a105f")
 	)
 	(wire
 		(pts
@@ -4481,7 +4513,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.012 73.66) (xy 108.712 73.66)
+			(xy 96.012 73.66) (xy 116.586 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4608,6 +4640,16 @@
 			(type default)
 		)
 		(uuid "a92ed263-52b5-43f3-bdfe-849abac33b58")
+	)
+	(wire
+		(pts
+			(xy 105.156 71.12) (xy 108.712 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac010550-1aec-4896-8d80-91c82037c7c4")
 	)
 	(wire
 		(pts
@@ -4828,6 +4870,16 @@
 			(type default)
 		)
 		(uuid "eed3b6ee-0315-4756-a691-30c80404cb6a")
+	)
+	(wire
+		(pts
+			(xy 105.156 60.452) (xy 105.156 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0530486-8d06-4532-91a1-c0254cc304e3")
 	)
 	(wire
 		(pts
@@ -5071,7 +5123,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 108.712 73.66 0)
+		(at 118.618 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5200,6 +5252,121 @@
 			(justify right)
 		)
 		(uuid "d081ac5a-ff56-40e1-ae62-aa7ec765b359")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.156 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02e964c4-3faf-4933-8136-73001b692a96")
+		(property "Reference" "R32"
+			(at 109.982 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7k"
+			(at 110.744 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 106.934 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.156 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 2.7K OHM 1% 1/8W 0805"
+			(at 105.156 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "RMCF0805FT2K70"
+			(at 105.156 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "RMCF0805FT2K70CT-ND"
+			(at 105.156 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 105.156 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Brand" "Stackpole Electronics Inc"
+			(at 105.156 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 105.156 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7cdca38-64cd-4b16-8bf3-660a4233700d")
+		)
+		(pin "2"
+			(uuid "517cbfc9-3120-41db-914b-54bb35db8e25")
+		)
+		(instances
+			(project "NerdHex-Gamma"
+				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/41405b56-1167-4157-8558-05d29b5bf080"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_name "+5V_1")
@@ -6258,6 +6425,73 @@
 		)
 	)
 	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 116.586 62.738 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46cc41bc-18b5-4288-bcf4-ee0083db0d47")
+		(property "Reference" "#PWR0198"
+			(at 116.586 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.5859 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.586 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.586 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 116.586 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1b4ab79-5222-46f2-a0af-bd50f61a6367")
+		)
+		(instances
+			(project "NerdHex-Gamma"
+				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/41405b56-1167-4157-8558-05d29b5bf080"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 210.312 110.49 0)
 		(mirror y)
@@ -7269,6 +7503,73 @@
 			(project "NerdHex-Gamma"
 				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/41405b56-1167-4157-8558-05d29b5bf080"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 105.156 60.452 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c1b8b37-4662-49b8-a216-a8ddc292670e")
+		(property "Reference" "#PWR017"
+			(at 105.156 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 105.1559 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.156 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.156 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 105.156 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "292d38ea-182d-48fc-b658-f537b6987884")
+		)
+		(instances
+			(project "NerdHex-Gamma"
+				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/41405b56-1167-4157-8558-05d29b5bf080"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8296,6 +8597,121 @@
 			(project "NerdHex-Gamma"
 				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/41405b56-1167-4157-8558-05d29b5bf080"
 					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.586 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cb50474-543f-41f4-ab2b-28f8ef4fa500")
+		(property "Reference" "R35"
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7k"
+			(at 123.698 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 118.364 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.586 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 2.7K OHM 1% 1/8W 0805"
+			(at 116.586 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "RMCF0805FT2K70"
+			(at 116.586 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderNr" "RMCF0805FT2K70CT-ND"
+			(at 116.586 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "D"
+			(at 116.586 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Brand" "Stackpole Electronics Inc"
+			(at 116.586 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 116.586 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea0fdf41-f530-4adc-a76a-3962ee69633f")
+		)
+		(pin "2"
+			(uuid "3f22bc64-8063-495e-8628-5bca3e7fa2cc")
+		)
+		(instances
+			(project "NerdHex-Gamma"
+				(path "/3156566e-65fb-4f3c-a391-b6970212fc69/41405b56-1167-4157-8558-05d29b5bf080"
+					(reference "R35")
 					(unit 1)
 				)
 			)
